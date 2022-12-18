@@ -38,8 +38,8 @@ def run_script():
     spark = SparkSession(sc)
 
     # setup owner name , access_token, and headers
-    owner = 'awslabs'
-    access_token = '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'
+    owner = '{sealed_name}'
+    access_token = '{sealed_taken}'
     headers = {'Authorization': "Token "+access_token}
 
     def get_commits_l6m(**kwargs):
